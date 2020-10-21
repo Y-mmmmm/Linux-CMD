@@ -5,9 +5,9 @@
 #### >查看Linux系统信息
 
 ```shell
-arch					#显示机器的处理器架构(1)
-uname -m				#显示机器的处理器架构(2)
-uname -r				#显示正在使用的内核版本
+arch			#显示机器的处理器架构(1)
+uname -m		#显示机器的处理器架构(2)
+uname -r		#显示正在使用的内核版本
 dmidecode -q          	#显示硬件系统部件 - (SMBIOS / DMI)
 hdparm -i /dev/hda    	#罗列一个磁盘的架构特性
 hdparm -tT /dev/sda   	#在磁盘上执行测试性读取操作
@@ -18,8 +18,8 @@ cat /proc/swaps       	#显示哪些swap被使用
 cat /proc/version     	#显示内核的版本
 cat /proc/net/dev     	#显示网络适配器及统计
 cat /proc/mounts      	#显示已加载的文件系统
-lspci -tv				#罗列PCI设备
-lsusb -tv				#显示USB设备
+lspci -tv		#罗列PCI设备
+lsusb -tv		#显示USB设备
 ```
 
 #### >date显示系统日期
